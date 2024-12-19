@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  body{
+    flex-direction: column;
+    font-size: 2em;
+    text-align: center;
+  }
+  .cotainer{
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    min-width: 200vh;
+  }
+  .kanan{
+    float: left;
+    flex-grow: 1;
+  }
+  .kiri{
+    flex-grow: 1;
+    flex-direction: column;
+  }
+  .tekanan{
+    display: flex;
+  }
+  nav{
+    background-color: lavender;
+    height: 100vh;
+    flex-wrap: wrap;
+    flex-grow: 1;
+  }
+  header, footer{
+    height: 20vh;
+    background-color: lavenderblush;
+  }
+  article{
+    background-color: lightyellow;
+    height: 60vh;
+    flex-grow: 1;
+  }
+  aside{
+    background-color: lightblue;
+    height: 60vh;
+    width: 40vh;
+  }

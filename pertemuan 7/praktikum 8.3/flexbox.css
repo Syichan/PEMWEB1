@@ -1,0 +1,131 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  div h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    font-family: 'Times New Roman';
+    color: pink;
+  }
+  .atas{
+    display: flex;
+    float: left;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:10px;
+  }
+  .bawah{
+    display: flex;
+    float: left;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:10px;
+    margin-top: 10px;
+  }
+  .item{
+    width: 25px;
+    height: 150px;
+    background-color: lavenderblush;
+    border-radius: 10px;
+    flex-grow: 1;
+  }
+  .kotak1{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxAL_cAhfnrr5pY4EP9XmIPu2hq_2HB7J30d4aQgtXONbji-szI-D5iacT&s=10');
+    margin: 0px;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border: solid 5px pink;
+    flex-grow: 1;
+  }
+  .kotak2{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSspqrS9Z2CP-Yh-sJYTTIicVi6BrZz3i6jncqmyH_-186Lfdq3OAv3PZw&s=10/');
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border: solid 5px pink;
+    flex-grow: 1;
+  }
+  .kotak3{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_sEpoWMk6wMBsNLptrNuGN284QtdDjUZh9g&usqp=CAU/');
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    border: solid 5px pink;
+    flex-grow: 1;
+  }
+  .kotak4{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIaYdqJtsXwxcncpFnGy8jKYe8KoY2fFHVJw&usqp=CAU/');
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    border: solid 5px pink;
+    flex-grow: 1;
+  }
+  .kotak5{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwQAGwHy0PJ1R2FRytlCAMxlRYe5D2kIKuvg&usqp=CAU/');
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    border: solid 5px pink;
+    flex-grow: 1;
+  }
+  .kotak6{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQunJ9INWFA4ju3VA3fk_AbDaaT_leMkKWmD6tdjizX1Oqotly1uw1OzXaN&s=10/');
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    border: solid 5px pink;
+    flex-grow: 1;
+  }
+  .kotak7{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuP1QDK7PQlC8GY9Jpylbn7W5M8ZBhkvtet3pDVawbVcUHRVE_gnn2kX8&s=10/');
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    border: solid 5px pink;
+    flex-grow: 1;
+  }
+  .kotak8{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIx6zuLofrOX7P1Kk90eHitxThcJp3ohOOKQ&usqp=CAU/');
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    border: solid 5px pink;
+    flex-grow: 1;
+  }
+  p{
+   font-size: 2rem; 
+   color: pink;
+   font-family: 'Comic Sans MS';
+  }
+  .dropcap{
+    font-size: 50px;
+    font-family: 'Times New Roman';
+    color: red;
+  }

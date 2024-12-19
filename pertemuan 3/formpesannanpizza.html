@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/index.js"></script>
+  <title>Pesan pizza.html</title>
+</head>
+<h1 style="text-align:center;color:pink">
+      Selamat Datang di PizzaChan</h1><hr>
+  <form action="thankyou.html" method="POST">
+    <h4>Tulis pesanan mu dibawah ini ^^</h4>
+    <fieldset style="background-color:lavenderblush"><legend>Informasi Kamu</legend>
+    <table>
+    <tr>
+      <td><label for="nama">Nama Kamu</label></td>
+      <td>:</td>
+      <td><input type="text" id="nama" value="Kusuri"></td>
+   </tr>
+   <tr>
+     <td><label for="email">Email Kamu</label></td>
+     <td>:</td>
+     <td><input type="email" id="email" value="kusuri@gmail.com"><br></td>
+   </tr>
+   <tr>
+     <td><label id="alamat">Rumah Kamu</label></td>
+     <td>:</td>
+     <td><textarea name="Rumah Kamu"></textarea></td>
+   </tr>
+   <tr>
+     <td><label for="Telpon">Nomor Kamu</label></td><td>:</td>
+     <td><input type="number" id="Telpon" value="08123456788"><br></td>
+   </tr>
+   <tr>
+     <td><label id="Pesan">Pesan Kamu</label></td>
+     <td>:</td>
+     <td><textarea name="Pesan" placeholder="tidak lebih dari 400 karakter" maxlength="400" ></textarea></td>
+   </tr>
+  </table>
+  </fieldset>
+  <br>
+    <b>Design Pizza Kamu</b><hr>
+    <fieldset style="background-color:lavenderblush">
+    <legend>Pinggiran Pizza</legend>
+    <input type="radio" name="Pinggiran" value="Pinggiran">Stuffed Crust<br>
+    <input type="radio" name="Pinggiran" value="Pinggiran">Cheesy Bites Crust<br>
+    <input type="radio" name="Pinggiran" value="Pinggiran">Crown Crust<br>
+    <input type="radio" name="Pinggiran" value="Pinggiran">Thin Crust<br>
+  </fieldset><br>
+    <fieldset style="background-color:lavenderblush">
+    <legend>Mau Topping apa?</legend>
+    <input type="checkbox" name="Topping1"> Cheses <br>
+    <input type="checkbox" name="Topping1"> Mushroom <br>
+    <input type="checkbox" name="Topping1"> Pepperoni <br>
+    <input type="checkbox" name="Topping1"> Sausage <br>
+    <input type="checkbox" name="Topping1"> Mozarella <br>
+    <input type="checkbox" name="Topping1"> Tuna <br>
+    <input type="checkbox" name="Topping1"> Pineaple <br>
+    </fieldset><br>
+    <hr>
+    <label> Pizzanya Mau Berapa?</label>
+      <select name="Pizza">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+      </select><hr>
+    <p style="text-align:right">
+      <input type="reset" value="Ulang Pesanan">
+      <input type="submit" value="Pesan Sekarang">
+    </p>
+  </form>
+</body>
+</html>
